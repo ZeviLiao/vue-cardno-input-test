@@ -2,6 +2,8 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>{{$t('App.vue.hello')}}</h1>
+    <h1>{{$t('App.vue.how-are-you')}}</h1>
   </div>
 </template>
 
